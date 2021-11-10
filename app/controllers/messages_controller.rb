@@ -15,6 +15,6 @@ class MessagesController < ApplicationController
       }
     end
 
-    render json: messages_array, status: 200
+    render json: messages_array, status: :ok
   end
 end
